@@ -1,0 +1,46 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music-API</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Musics Program</h1>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 class="title" id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      <audio src="" id="audio" controls hidden></audio>
+      <div class="img-container">
+        <img src="" alt="mario" id="cover" />
+      </div>
+      <div class="navigation">
+        <button class="action-btn" id="prev">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button class="action-btn" id="play">
+          <i class="fas fa-play"></i>
+        </button>
+        <button class="action-btn" id="next">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
